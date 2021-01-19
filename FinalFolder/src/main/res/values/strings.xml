@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="infoTitle1"><b>Masuri protective</b></string>
+    <string name="infoTitle2"><b>Cum se transmite virusul</b></string>
+    <string name="infoTitle3"><b>Statistici perioade de timp</b></string>
+
+    <string name="infoContent2.1">
+           Principalul mod de transmitere este de la o persoană la alta prin intermediul secrețiilor, eliminate de către persoanele infectate prin expirație atunci când strănută, vorbesc sau tușesc.
+    </string>
+    <string name="infoContent2.2">
+        Este posibil ca o persoană să se infecteze prin atingerea cu mâna a obiectelor sau suprafețelor contaminate de secrețiile unei persoane bolnave.
+    </string>
+    <string name="infoContent2.3">
+        Transmiterea fecal-orală și cea prin consumul de alimente contaminate sunt alte metode de transmitere suspectate în cazul SARS-CoV-2.
+    </string>
+
+    <string name="unitatiTitle"><b>Unitati sanitare cu suport COVID-19 in judetul Arges</b></string>
+
+    <string name="chestionarTitle"><b>Chestionar pentru evaluarea riscului de imbolnavire cu Coronavirus</b></string>
+
+    <string name="testTitle"><b>Testare</b></string>
+    <string name="testTitle1"><b>Rezultate</b></string>
+    <string name="testTittle2"><b>Unitati de testare Covid19 Arges</b></string>
+    <string name="resultsTitle"><b>Conectati-va utilizand CNP-ul</b></string>
+
+    <string name="buttonQuiz">Chestionar simptome COVID-19</string>
+    <string name="rasp_a_text">answer a</string>
+    <string name="rasp_b_text">answer b</string>
+    <string name="rasp_c_text">answer c</string>
+    <string name="rasp_d_text">answer d</string>
+    <string name="intrebare_text">Question</string>
+    <string name="int_no">number of questions</string>
+    <string name="scor_text">TVScor</string>
+
+
+</resources>

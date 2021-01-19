@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/covidInfo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:text="Informatii despre covid"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/covidUnitati"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Unitati de testare Covid-19"
+        app:layout_constraintTop_toBottomOf="@+id/covidInfo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/covidTest"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Testare"
+        app:layout_constraintTop_toBottomOf="@+id/covidUnitati"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+    <Button
+        android:id="@+id/covidChestionar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Chestionar simptome covid-19"
+        app:layout_constraintTop_toBottomOf="@+id/covidTest"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/covidChestionar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

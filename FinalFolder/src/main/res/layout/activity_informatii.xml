@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Informatii">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/infoTitle1"
+            android:textSize="80px" />
+
+        <ListView
+            android:id="@+id/measureList"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:dividerHeight="3dp"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/infoTitle2"
+            android:gravity="center"
+            android:textSize="80px"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infoContent2.1"
+            android:textIsSelectable="true"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infoContent2.2"
+            android:textIsSelectable="true"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infoContent2.3"
+            android:textIsSelectable="true"/>
+
+        <Button
+            android:id="@+id/btnOnWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mai multe informarmatii"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infoTitle3"
+            android:gravity="center"
+            android:textSize="80px"
+            />
+
+        <TextView
+            android:id="@+id/webStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Apasa aici pentru mai multe detalii"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:id="@+id/statisticsPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/covid"/>
+    </LinearLayout>
+
+</ScrollView>
